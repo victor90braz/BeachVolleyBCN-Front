@@ -4,11 +4,6 @@ const MainComponentStyled = styled.main`
   display: flex;
   flex-direction: column;
 
-  ul li {
-    padding: 0;
-    list-style: none;
-  }
-
   .element-perfil {
     display: flex;
     justify-content: center;
