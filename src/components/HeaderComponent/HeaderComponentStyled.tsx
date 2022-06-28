@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HeaderStyled = styled.header`
+const HeaderComponentStyled = styled.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,4 +22,4 @@ const HeaderStyled = styled.header`
   }
 `;
 
-export default HeaderStyled;
+export default HeaderComponentStyled;
