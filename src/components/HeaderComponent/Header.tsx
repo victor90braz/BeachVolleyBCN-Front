@@ -1,5 +1,5 @@
 import HeaderStyled from "./HeaderStyled";
-import logo from "../../images/logo.webp";
+import logo from "../../../src/images/logo.webp";
 import { BsThreeDotsVertical } from "react-icons/bs";
 
 const Header = () => {
