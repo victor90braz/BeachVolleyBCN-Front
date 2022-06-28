@@ -1,4 +1,4 @@
-export const perfilDefault = [
+export const initialState = [
   {
     keywords: "Experienced",
     name: "Kimberly Hill",

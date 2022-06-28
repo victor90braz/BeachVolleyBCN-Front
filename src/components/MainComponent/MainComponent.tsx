@@ -1,31 +1,31 @@
 import { useState } from "react";
-import { SiHomebridge } from "react-icons/si";
-import perfil from "../../images/perfil.jpg";
-import { IPerfil } from "../../Interfaces/IPerfil";
-import { perfilDefault } from "../../utiles/utiles";
+import { GoStar } from "react-icons/go";
+import KimberlyHill from "../../images/kimberly-hill.jpg";
+import { IPerfilPlayer } from "../../Interfaces/IPerfil";
+import { initialState } from "../../utils/utiles";
 import MainComponentStyled from "./MainComponentStyled";
 
 const MainComponent = () => {
-  const [datas] = useState<IPerfil[]>(perfilDefault);
+  const [playersData] = useState<IPerfilPlayer[]>(initialState);
 
   return (
     <MainComponentStyled>
-      {datas.map((data, index) => {
+      {playersData.map((data, index) => {
         return (
           <div key={index}>
-            <div className="element-perfil">
-              <img src={perfil} alt={`Perfil atleta`} />
+            <div className="perfil">
+              <img src={KimberlyHill} alt={`Perfil of ${data.name}`} />
             </div>
 
-            <div className="element-data">
+            <div className="data">
               <span>{data.keywords}</span>
               <h1>{data.name}</h1>
               <span>{data.like} Likes</span>
             </div>
 
-            <ul className="element-statistics">
+            <ul className="statistics">
               <li className="points">
-                <SiHomebridge />
+                <GoStar size={30} />
                 <h3>Points</h3>
                 <span>{data.point}</span>
               </li>
@@ -34,7 +34,7 @@ const MainComponent = () => {
                 <span>Win Lose Ratio</span>
               </li>
               <li className="game">
-                <SiHomebridge />
+                <GoStar size={30} />
                 <h3>Games Won</h3>
                 <span>{data.game}</span>
               </li>

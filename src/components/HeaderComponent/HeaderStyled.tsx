@@ -10,9 +10,15 @@ const HeaderStyled = styled.header`
     flex-direction: row;
     gap: 20px;
   }
+
   img {
-    width: 40px;
+    width: 50px;
     object-fit: cover;
+  }
+
+  .icon-menu {
+    background: white;
+    border: none;
   }
 `;
 

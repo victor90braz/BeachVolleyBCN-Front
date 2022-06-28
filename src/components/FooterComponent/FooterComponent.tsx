@@ -1,39 +1,32 @@
 import FooterComponentStyled from "./FooterComponentStyled";
+import { WiSunrise } from "react-icons/wi";
+import { RiMedalLine } from "react-icons/ri";
+import {
+  MdOutlineSportsVolleyball,
+  MdOutlineSportsHandball,
+} from "react-icons/md";
+import { AiOutlineTable } from "react-icons/ai";
 
 const FooterComponent = () => {
   return (
     <FooterComponentStyled>
       <ul>
-        <li>
-          <img
-            src="https://photoshop-kopona.com/uploads/posts/2018-09/1537386498_sun-11.jpg"
-            alt="Home page"
-          />
+        <li className="home">
+          <WiSunrise size={80} />
+          <span>Home</span>
         </li>
         <li>
-          <img
-            src="https://images.vexels.com/media/users/3/210858/isolated/preview/f97b5d24d8ad4fc54a9aba5dae82c4a2-circulo-de-medallas-de-premio-primero.png"
-            alt=""
-          />
+          <RiMedalLine size={80} />
         </li>
         <li>
-          <img
-            src="https://www.pngitem.com/pimgs/m/20-203356_volleyball-png-photo-background-transparent-background-volleyball-png.png"
-            alt=""
-          />
+          <MdOutlineSportsVolleyball size={80} />
         </li>
         <li>
-          <img
-            src="https://us.123rf.com/450wm/patrimonio/patrimonio1209/patrimonio120900031/15220751-ilustraci%C3%B3n-de-una-bola-de-salto-femenino-de-voleibol-jugador-remate-realizado-en-estilo-retro-.jpg"
-            alt=""
-          />
+          <MdOutlineSportsHandball size={80} />
         </li>
 
         <li>
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/2528/2528211.png"
-            alt=""
-          />
+          <AiOutlineTable size={80} />
         </li>
       </ul>
     </FooterComponentStyled>
