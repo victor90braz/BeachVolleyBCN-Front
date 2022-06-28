@@ -4,23 +4,25 @@ const MainComponentStyled = styled.main`
   display: flex;
   flex-direction: column;
 
-  .element-perfil {
+  .perfil {
     display: flex;
     justify-content: center;
+
     img {
       width: 200px;
       height: 200px;
       border-radius: 150px;
+      object-fit: fill;
     }
   }
 
-  .element-data {
+  .data {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .element-statistics {
+  .statistics {
     display: flex;
     flex-direction: row;
     flex-direction: row;

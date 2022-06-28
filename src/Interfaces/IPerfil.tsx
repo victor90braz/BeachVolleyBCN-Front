@@ -1,4 +1,4 @@
-export interface IPerfil {
+export interface IPerfilPlayer {
   keywords: string;
   name: string;
   like: number;
