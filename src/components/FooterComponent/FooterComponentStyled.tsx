@@ -3,13 +3,14 @@ const FooterComponentStyled = styled.footer`
   @media (min-width: 320px) {
     width: 100%;
     background: yellow;
+    padding: 10px;
+
     ul {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       padding: 0;
       list-style: none;
-      padding: 25px;
 
       .home {
         display: flex;
