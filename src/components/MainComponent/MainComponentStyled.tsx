@@ -79,10 +79,12 @@ const MainComponentStyled = styled.main`
         font-size: 20px;
         font-weight: 700;
       }
+
       .game {
         display: flex;
         flex-direction: column;
       }
+
       .rate {
         .rate_status {
           font-size: 11px;
