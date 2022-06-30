@@ -12,24 +12,24 @@ const FooterComponent = () => {
     <FooterComponentStyled>
       <ul>
         <li className="home">
-          <WiSunrise size={80} />
+          <WiSunrise size={50} />
           <span>Home</span>
         </li>
 
         <li>
-          <RiMedalLine size={80} />
+          <RiMedalLine size={50} />
         </li>
 
         <li>
-          <MdOutlineSportsVolleyball size={80} />
+          <MdOutlineSportsVolleyball size={50} />
         </li>
 
         <li>
-          <MdOutlineSportsHandball size={80} />
+          <MdOutlineSportsHandball size={50} />
         </li>
 
         <li>
-          <AiOutlineTable size={80} />
+          <AiOutlineTable size={50} />
         </li>
       </ul>
     </FooterComponentStyled>

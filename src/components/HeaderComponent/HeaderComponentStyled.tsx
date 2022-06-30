@@ -1,24 +1,27 @@
 import styled from "styled-components";
 
 const HeaderComponentStyled = styled.header`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  .title {
+  @media (min-width: 320px) {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-  }
+    justify-content: space-between;
+    font-size: 9px;
 
-  img {
-    width: 50px;
-    object-fit: cover;
-  }
+    .title {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
 
-  .icon-menu {
-    background: white;
-    border: none;
+    img {
+      width: 30px;
+      object-fit: cover;
+    }
+
+    .icon-menu {
+      background: white;
+      border: none;
+    }
   }
 `;
 
