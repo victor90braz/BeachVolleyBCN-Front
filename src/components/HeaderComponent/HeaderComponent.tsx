@@ -10,7 +10,7 @@ const HeaderComponent = () => {
         <h1>Volley World</h1>
       </div>
       <button className="icon-menu">
-        <BsThreeDotsVertical size={40} />
+        <BsThreeDotsVertical size={30} />
       </button>
     </HeaderComponentStyled>
   );
