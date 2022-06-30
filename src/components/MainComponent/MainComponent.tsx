@@ -19,7 +19,7 @@ const MainComponent = () => {
 
             <div className="data">
               <span>{data.keywords}</span>
-              <h1>{data.name}</h1>
+              <h2>{data.name}</h2>
               <span>{data.like} Likes</span>
             </div>
 

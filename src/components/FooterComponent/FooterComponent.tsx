@@ -15,12 +15,15 @@ const FooterComponent = () => {
           <WiSunrise size={80} />
           <span>Home</span>
         </li>
+
         <li>
           <RiMedalLine size={80} />
         </li>
+
         <li>
           <MdOutlineSportsVolleyball size={80} />
         </li>
+
         <li>
           <MdOutlineSportsHandball size={80} />
         </li>
