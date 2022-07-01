@@ -1,9 +1,10 @@
 import styled from "styled-components";
 const FooterComponentStyled = styled.footer`
+  position: fixed;
+  bottom: 0;
   @media (min-width: 320px) {
     width: 100%;
     background: yellow;
-    padding: 10px;
 
     ul {
       display: flex;
