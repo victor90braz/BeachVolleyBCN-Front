@@ -5,7 +5,6 @@ const FooterComponentStyled = styled.footer`
   @media (min-width: 320px) {
     width: 100%;
     background: yellow;
-    padding: 10px;
 
     ul {
       display: flex;
