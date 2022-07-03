@@ -3,8 +3,8 @@ import HeaderComponent from "./HeaderComponent";
 
 describe("Given a HeaderComponent", () => {
   describe("When it's invoked", () => {
-    test("Then it should create a HeaderComponent with a tittle 'Volley World'", () => {
-      const expectedText = "Volley World";
+    test("Then it should create a HeaderComponent with a tittle 'Beach Volley BCN'", () => {
+      const expectedText = "Beach Volley BCN";
 
       render(<HeaderComponent />);
 

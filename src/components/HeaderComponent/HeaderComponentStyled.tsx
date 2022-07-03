@@ -5,7 +5,7 @@ const HeaderComponentStyled = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 9px;
+    font-size: 10px;
 
     .title {
       display: flex;
@@ -14,8 +14,10 @@ const HeaderComponentStyled = styled.header`
     }
 
     img {
-      width: 30px;
       object-fit: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
     }
 
     .icon-menu {
