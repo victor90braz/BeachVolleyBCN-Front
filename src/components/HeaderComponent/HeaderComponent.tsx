@@ -1,4 +1,4 @@
-import logo from "../../../src/images/logo.webp";
+import logo from "../../../src/images/logo.png";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import HeaderComponentStyled from "./HeaderComponentStyled";
 
@@ -6,8 +6,8 @@ const HeaderComponent = () => {
   return (
     <HeaderComponentStyled>
       <div className="title">
-        <img src={logo} alt={`Logo of the VolleyMania`} />
-        <h1>Volley World</h1>
+        <img src={logo} alt={`Logo of the Beach Volley BCN`} />
+        <h1>Beach Volley BCN</h1>
       </div>
       <button className="icon-menu">
         <BsThreeDotsVertical size={30} />

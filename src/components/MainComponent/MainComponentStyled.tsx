@@ -54,7 +54,7 @@ const MainComponentStyled = styled.main`
       .points,
       .rate,
       .game {
-        background: yellow;
+        background: #0080fffd;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
